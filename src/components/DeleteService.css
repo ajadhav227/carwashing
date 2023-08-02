@@ -1,0 +1,38 @@
+body{
+
+    background-color: #c4fcf7;
+  }
+
+  
+  .service-page {
+    width: 200%; /* Increase the width of the container */
+    max-width: 1000px; /* Limit the maximum width of the container */
+    padding: 100px;
+    border-radius: 8px;
+    border: 0px !important;
+    
+  }
+  
+  .service-page select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+  
+  .service-page button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #006B51;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .service-page button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

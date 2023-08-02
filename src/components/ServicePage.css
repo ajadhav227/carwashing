@@ -1,0 +1,85 @@
+body{
+
+    background-color: #c4fcf7;
+  }
+
+/* Styling for the form container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    border: 0px !important;
+}
+  
+  /* Styling for the form headings */
+  h1 {
+    font-size: 30px; /* Increase the font size for headings */
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for form labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Styling for input and select fields */
+  input[type="text"],
+  input[type="number"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px; /* Increase the padding to make textboxes taller */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; /* Increase the font size for textboxes */
+  }
+  
+  /* Styling for buttons */
+  button {
+    padding: 12px 16px; /* Increase the padding to make buttons taller */
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for Discard button */
+  button[type="button"] {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #b3b3b3;
+  }
+  
+  /* Styling for the file input */
+  input[type="file"] {
+    display: none;
+  }
+  
+  /* Styling for the file input label */
+  label[for="serviceImage"] {
+    display: inline-block;
+    padding: 12px 16px; /* Increase the padding to make the label taller */
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling for the selected file name */
+  #ServicePage {
+    margin-top: 5px;
+  }
+  
